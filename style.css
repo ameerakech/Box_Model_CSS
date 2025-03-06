@@ -1,0 +1,189 @@
+.container
+{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.potrait
+{
+    border-right: solid 1px palevioletred;
+    margin-right: 1cm;
+    padding-right: 2cm;
+}   
+#firstname
+{
+    width: 5.5cm;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    border: solid 1px rgb(172, 164, 164);
+
+    
+}
+#lname
+{
+    margin-left: 4.9cm;
+}
+#lastname
+{
+    margin-left: 0.6cm;
+    width: 5.5cm;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    border: solid 1px rgb(172, 164, 164);
+
+}
+
+    #email
+    {
+        width: 95%;
+        padding: 10px;
+        border: none;
+        border: solid 1px rgb(173, 160, 160);
+        border-radius: 5px;
+        
+        
+    }
+
+    #account
+    {
+        text-align: center;
+    }
+#heading
+{
+    text-align: center;
+    color: rgb(145, 19, 145);
+    font-size:290%
+    
+}
+
+#image
+{
+    height: 70%;
+    margin-right: 1cm;
+}
+#signin
+{
+    color: rgb(102, 9, 102);
+    font-weight: bolder;
+}
+
+    #password
+    {
+        width: 95%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        border: solid 1px rgb(172, 164, 164);
+    
+    }
+
+    .submit
+    {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        border: solid 1px rgb(172, 164, 164);
+    
+    }
+
+    #confirm_password
+    {
+        width: 95%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        border: solid 1px rgb(172, 164, 164);
+    
+    }
+
+    .submit
+    {
+        background: none;
+        border: none;
+        background-color: rgb(136, 18, 136);
+        font-weight: bold;
+        font-size: medium;
+        color: white;
+        cursor: pointer;
+    }
+    body
+    {
+        background-color:papayawhip
+    }
+
+    h3
+    {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5cm;
+       
+    }
+
+    h3::before,
+    h3::after
+    {
+        content: "";
+        flex: 1 1;
+        border-bottom: 2px solid grey;
+        margin: auto;
+        position: relative;
+        max-width: 300px;
+        margin: 10px auto;
+        text-align: center;
+        opacity: 30%;
+        display: block;
+        left: 0;
+        right: 0;
+        top: 50%;
+        height: 1px;
+        
+    }
+
+    .icons
+    {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        margin-left: 1cm;
+    }
+    
+
+    #vision
+{
+    position: absolute;
+    right: 380px;
+    top: 448px;
+}
+
+#passeye
+{
+    position: absolute;
+    right: 375px;
+    top: 533px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
